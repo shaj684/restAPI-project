@@ -1,19 +1,29 @@
 {
   "name": "restapi-project",
   "version": "1.0.0",
-  "description": "",
+  "description": "Simple RESTful API to later be implemented with Raspberry Pi",
   "main": "index.js",
   "scripts": {
-    "devStart": "nodemon server.js"
+    "devStart": "nodemon server.js",
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "mongoose": "^5.9.11"
+    "mongoose": "^5.9.13"
   },
   "devDependencies": {
     "dotenv": "^8.2.0",
     "nodemon": "^2.0.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shaj684/restAPI-project.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/shaj684/restAPI-project/issues"
+  },
+  "homepage": "https://github.com/shaj684/restAPI-project#readme"
 }
